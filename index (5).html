@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ingeniería, metodología y organizaciones desde la TGS | UNE</title>
+<meta name="description" content="Guía interactiva de Teoría General de Sistemas: la ingeniería y la TGS, metodología de investigación con base en la TGS y el enfoque de sistemas en el desarrollo de las organizaciones. Ingeniería Industrial, Universidad de Especialidades UNE.">
+<link rel="icon" type="image/png" href="data:image/png;base64,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flrOlIvlVxIvfT/Q8L9DbpR4efnHco7Ep/GPlUNkb4lXDDaQZl8+J4T0O67/Z2eLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAABacu8//T+wJF0i54bpgwAAAABJRU5ErkJggg==">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --navy:#1f2a63;
+  --navy-2:#2c3a85;
+  --navy-soft:#e8eaf4;
+  --red:#d9261c;
+  --red-soft:#fbe9e7;
+  --ink:#1b1e2b;
+  --muted:#5a6078;
+  --line:#d8dbe6;
+  --paper:#f6f6f2;
+  --card:#ffffff;
+  --ok:#1d7a46;
+  --ok-soft:#e5f4ec;
+  --warn:#9a5b00;
+  --warn-soft:#fff3dc;
+  --radius:10px;
+  --serif:"IBM Plex Serif", Georgia, "Times New Roman", serif;
+  --sans:"IBM Plex Sans", "Segoe UI", Roboto, Arial, sans-serif;
+  --mono:"IBM Plex Mono", Consolas, monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16.5px;line-height:1.65}
+h1,h2,h3,h4{font-family:var(--serif);color:var(--navy);line-height:1.25;margin:0 0 .6em}
+h2{font-size:1.75rem;padding-bottom:.35em;border-bottom:3px solid var(--navy);display:flex;gap:.6rem;align-items:baseline}
+h2 .num{font-family:var(--mono);font-size:.95rem;color:var(--red);font-weight:500}
+h3{font-size:1.25rem;margin-top:1.6em}
+h4{font-size:1.05rem;margin-top:1.2em}
+p{margin:0 0 1em}
+a{color:var(--navy-2)}
+strong{color:var(--navy)}
+ul,ol{padding-left:1.3em;margin:0 0 1em}
+li{margin-bottom:.35em}
+
+/* ---------- Encabezado ---------- */
+.top{background:var(--navy);color:#fff;border-bottom:6px solid var(--red)}
+.top-inner{max-width:1240px;margin:0 auto;padding:22px 24px;display:flex;gap:22px;align-items:center}
+.top img{width:86px;height:86px;background:#fff;border-radius:12px;padding:6px;flex-shrink:0}
+.top .inst{font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;opacity:.85;margin-bottom:4px}
+.top h1{color:#fff;font-size:1.65rem;margin:0 0 6px}
+.top .meta{font-size:.92rem;opacity:.9}
+.top .meta span{display:inline-block;margin-right:14px}
+
+/* ---------- Layout ---------- */
+.layout{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:260px 1fr;gap:32px;padding:28px 24px 60px}
+nav.side{position:sticky;top:18px;align-self:start;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 0;max-height:calc(100vh - 36px);overflow:auto}
+nav.side .ttl{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);padding:0 18px 8px}
+nav.side a{display:block;padding:7px 18px;text-decoration:none;color:var(--ink);font-size:.93rem;border-left:3px solid transparent}
+nav.side a:hover{background:var(--navy-soft)}
+nav.side a.active{border-left-color:var(--red);background:var(--navy-soft);color:var(--navy);font-weight:600}
+nav.side a.act{color:var(--red)}
+nav.side .progress{margin:14px 18px 0;height:6px;background:var(--navy-soft);border-radius:3px;overflow:hidden}
+nav.side .progress div{height:100%;width:0;background:var(--red);transition:width .2s}
+main{min-width:0}
+main section{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:30px 34px;margin-bottom:26px;scroll-margin-top:16px}
+
+/* ---------- Componentes ---------- */
+.lead{font-size:1.08rem;color:var(--muted)}
+.box{border-radius:8px;padding:16px 20px;margin:1.1em 0;border-left:5px solid var(--navy);background:var(--navy-soft)}
+.box.red{border-left-color:var(--red);background:var(--red-soft)}
+.box.ok{border-left-color:var(--ok);background:var(--ok-soft)}
+.box.warn{border-left-color:var(--warn);background:var(--warn-soft)}
+.box .lbl{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;color:var(--navy);margin-bottom:6px}
+.box.red .lbl{color:var(--red)} .box.ok .lbl{color:var(--ok)} .box.warn .lbl{color:var(--warn)}
+.box p:last-child,.box ul:last-child,.box ol:last-child{margin-bottom:0}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:20px;background:var(--navy);color:#fff}
+.tag.red{background:var(--red)}
+table{width:100%;border-collapse:collapse;margin:1em 0;font-size:.95rem}
+th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}
+th{background:var(--navy);color:#fff;font-weight:600}
+tr:nth-child(even) td{background:#fafbfd}
+.quote{font-family:var(--serif);font-size:1.12rem;color:var(--navy);border-left:4px solid var(--red);padding:6px 0 6px 18px;margin:1.2em 0}
+.quote cite{display:block;font-family:var(--sans);font-size:.85rem;color:var(--muted);font-style:normal;margin-top:6px}
+button,.btn{font-family:var(--sans);font-size:.95rem;font-weight:600;border:0;border-radius:7px;padding:10px 18px;cursor:pointer;background:var(--navy);color:#fff}
+button:hover{background:var(--navy-2)}
+button.secondary{background:#fff;color:var(--navy);border:1.5px solid var(--navy)}
+button.secondary:hover{background:var(--navy-soft)}
+button.redb{background:var(--red)}
+button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #f2a33a;outline-offset:2px}
+input[type=text],textarea,select{width:100%;font-family:var(--sans);font-size:.95rem;padding:9px 11px;border:1.5px solid var(--line);border-radius:7px;background:#fff;color:var(--ink)}
+textarea{min-height:90px;resize:vertical}
+label.f{display:block;font-weight:600;color:var(--navy);margin:14px 0 5px;font-size:.93rem}
+.hint{font-size:.85rem;color:var(--muted);margin-top:3px}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+
+/* Pasos */
+.steps{counter-reset:st;list-style:none;padding:0}
+.steps>li{counter-increment:st;position:relative;padding:4px 0 12px 48px;margin:0}
+.steps>li::before{content:counter(st);position:absolute;left:0;top:2px;width:32px;height:32px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:.9rem}
+.steps>li::after{content:"";position:absolute;left:15px;top:36px;bottom:0;width:2px;background:var(--line)}
+.steps>li:last-child::after{display:none}
+
+/* Diagrama de sistema */
+.sysmap{border:1.5px dashed var(--muted);border-radius:14px;padding:18px;position:relative;background:#fbfbf8;margin-top:10px}
+.sysmap .env-lbl{position:absolute;top:-12px;left:18px;background:#fbfbf8;padding:0 8px;font-size:.8rem;font-weight:700;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.sysmap .frontier{border:3px solid var(--navy);border-radius:12px;padding:18px 14px;position:relative;margin:14px 0 0}
+.sysmap .frontier .fr-lbl{position:absolute;top:-13px;right:18px;background:#fbfbf8;padding:0 8px;font-size:.8rem;font-weight:700;color:var(--navy);cursor:pointer}
+.flow{display:grid;grid-template-columns:1fr 34px 1.5fr 34px 1fr;align-items:center;gap:0}
+.node{background:#fff;border:2px solid var(--navy);border-radius:10px;padding:12px;text-align:center;cursor:pointer;font-weight:600;color:var(--navy);transition:transform .12s, background .12s}
+.node small{display:block;font-weight:400;color:var(--muted);font-size:.8rem;margin-top:3px}
+.node:hover,.node.on{background:var(--navy);color:#fff;transform:translateY(-2px)}
+.node:hover small,.node.on small{color:#dfe3f5}
+.node.proc{border-color:var(--red)}
+.node.proc:hover,.node.proc.on{background:var(--red)}
+.subs{display:flex;gap:6px;justify-content:center;margin-top:8px;flex-wrap:wrap}
+.subs span{font-size:.72rem;font-weight:500;background:var(--red-soft);color:var(--red);padding:2px 7px;border-radius:10px}
+.node.proc:hover .subs span,.node.proc.on .subs span{background:#fff}
+.arrow{text-align:center;font-size:1.4rem;color:var(--navy);font-weight:700;pointer-events:none}
+.fb{margin-top:14px;border:2px dashed var(--red);border-radius:10px;padding:10px;text-align:center;cursor:pointer;color:var(--red);font-weight:600;background:#fff}
+.fb:hover,.fb.on{background:var(--red);color:#fff}
+.sys-panel{margin-top:16px;min-height:110px;border-radius:10px;background:var(--navy-soft);padding:16px 20px}
+.sys-panel h4{margin:0 0 6px}
+
+/* Tarjetas de características */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:12px}
+.ccard{border:1.5px solid var(--line);border-radius:10px;background:#fff;overflow:hidden;cursor:pointer;display:flex;flex-direction:column}
+.ccard .h{padding:14px 16px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ccard .h b{font-family:var(--serif);color:var(--navy);font-size:1.05rem}
+.ccard .h i{font-style:normal;font-family:var(--mono);color:var(--red);font-size:1.1rem}
+.ccard .b{display:none;padding:0 16px 16px;font-size:.92rem}
+.ccard .b .ex{margin-top:8px;padding:8px 10px;background:var(--navy-soft);border-radius:6px;font-size:.88rem}
+.ccard.open{border-color:var(--navy);box-shadow:0 3px 10px rgba(31,42,99,.12)}
+.ccard.open .b{display:block}
+
+/* Práctica de principios */
+.pq{border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:12px;background:#fff}
+.pq p{margin-bottom:8px}
+.pq select{max-width:340px}
+.fbk{font-size:.9rem;margin-top:8px;display:none;padding:8px 10px;border-radius:6px}
+.fbk.good{display:block;background:var(--ok-soft);color:var(--ok)}
+.fbk.bad{display:block;background:var(--red-soft);color:var(--red)}
+
+/* Quiz */
+.qz{border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-bottom:14px;background:#fff}
+.qz .qn{font-family:var(--mono);color:var(--red);font-size:.85rem}
+.qz .qt{font-weight:600;margin:4px 0 10px}
+.opt{display:block;border:1.5px solid var(--line);border-radius:8px;padding:10px 14px;margin-bottom:8px;cursor:pointer;background:#fff;text-align:left;width:100%;color:var(--ink);font-weight:400}
+.opt:hover{border-color:var(--navy);background:var(--navy-soft)}
+.opt.sel{border-color:var(--navy);background:var(--navy-soft);font-weight:600}
+.opt.right{border-color:var(--ok);background:var(--ok-soft);color:var(--ok);font-weight:600}
+.opt.wrong{border-color:var(--red);background:var(--red-soft);color:var(--red)}
+.opt[disabled]{cursor:default}
+.score{display:none;text-align:center;border-radius:12px;padding:24px;background:var(--navy);color:#fff;margin-top:10px}
+.score .big{font-family:var(--serif);font-size:3rem;font-weight:700;line-height:1}
+.score p{margin:8px 0 0}
+.score .who{font-size:.9rem;opacity:.85}
+
+/* Rúbrica */
+.rub td:first-child{font-weight:600;color:var(--navy);width:24%}
+
+/* Caso ABP */
+.case{border:2px solid var(--red);border-radius:12px;padding:22px 24px;background:#fff}
+.case .data{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0}
+.case .data div{background:var(--red-soft);border-radius:8px;padding:10px;text-align:center}
+.case .data b{display:block;font-family:var(--serif);font-size:1.35rem;color:var(--red)}
+.case .data span{font-size:.8rem;color:var(--muted)}
+
+.foot{text-align:center;color:var(--muted);font-size:.85rem;padding:10px 0 40px}
+.saved{font-size:.85rem;color:var(--ok);margin-left:6px}
+
+@media (max-width:980px){
+  .layout{grid-template-columns:minmax(0,1fr);padding:18px 16px 40px}
+  nav.side{position:relative;top:0;max-height:none}
+  main section{padding:22px 18px}
+  .grid2,.grid3{grid-template-columns:1fr}
+  .case .data{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:640px){
+  .top-inner{flex-direction:column;text-align:center}
+  .flow{grid-template-columns:1fr}
+  .arrow{transform:rotate(90deg);width:34px;margin:4px auto}
+  h2{font-size:1.45rem;flex-direction:column;gap:0}
+  table{display:block;overflow-x:auto}
+}
+@media print{
+  nav.side,.row,button{display:none!important}
+  .layout{grid-template-columns:1fr}
+  main section{break-inside:avoid-page;border:0}
+  .ccard .b{display:block}
+}
+
+/* ---------- Complementos de esta guía ---------- */
+.tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:2px solid var(--line);margin:14px 0 0}
+.tabs button{background:transparent;color:var(--muted);border-radius:7px 7px 0 0;border:1.5px solid transparent;border-bottom:0;padding:9px 16px}
+.tabs button:hover{background:var(--navy-soft);color:var(--navy)}
+.tabs button.on{background:var(--navy);color:#fff}
+.tabpane{display:none;border:1.5px solid var(--line);border-top:0;border-radius:0 0 10px 10px;padding:18px 20px;background:#fff}
+.tabpane.on{display:block}
+
+.tl{position:relative;margin:18px 0 6px;padding-left:26px;border-left:3px solid var(--navy)}
+.tl .ev{position:relative;margin-bottom:10px;background:#fff;border:1.5px solid var(--line);border-radius:9px;padding:10px 14px;cursor:pointer}
+.tl .ev::before{content:"";position:absolute;left:-35px;top:14px;width:14px;height:14px;border-radius:50%;background:#fff;border:3px solid var(--red)}
+.tl .ev .y{font-family:var(--mono);color:var(--red);font-size:.85rem;margin-right:8px}
+.tl .ev b{color:var(--navy)}
+.tl .ev .d{display:none;margin-top:6px;font-size:.93rem}
+.tl .ev.open{border-color:var(--navy)}
+.tl .ev.open .d{display:block}
+
+.clas{border:1px solid var(--line);border-radius:9px;padding:12px 14px;margin-bottom:10px;background:#fff}
+.clas p{margin:0 0 8px}
+.clas .btns{display:flex;gap:8px;flex-wrap:wrap}
+.clas .btns button{padding:7px 14px;font-size:.88rem}
+
+.stepper{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;margin-top:12px}
+.stepper button{padding:9px 4px;font-size:.8rem;line-height:1.25;background:#fff;color:var(--navy);border:1.5px solid var(--navy)}
+.stepper button.on,.stepper button:hover{background:var(--navy);color:#fff}
+.stepper.red button{color:var(--red);border-color:var(--red)}
+.stepper.red button.on,.stepper.red button:hover{background:var(--red);color:#fff}
+.stepinfo{margin-top:12px;background:var(--navy-soft);border-radius:9px;padding:14px 18px;min-height:96px}
+.stepinfo.red{background:var(--red-soft)}
+.stepinfo h4{margin:0 0 6px}
+
+.vsm{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.vsm .s{border:2px solid var(--navy);border-radius:10px;padding:12px;cursor:pointer;background:#fff}
+.vsm .s .n{font-family:var(--mono);color:var(--red);font-size:.85rem}
+.vsm .s b{display:block;color:var(--navy)}
+.vsm .s small{color:var(--muted)}
+.vsm .s:hover,.vsm .s.on{background:var(--navy);color:#fff}
+.vsm .s:hover b,.vsm .s.on b,.vsm .s:hover small,.vsm .s.on small{color:#fff}
+.vsm .s.wide{grid-column:1 / -1}
+
+/* Constructor de sistema */
+.ipo{display:grid;grid-template-columns:1fr 1.1fr 1fr;gap:12px;align-items:stretch;margin-top:14px}
+.ipo .col{border:2px solid var(--navy);border-radius:10px;padding:12px;background:#fff;min-height:120px}
+.ipo .col.p{border-color:var(--red)}
+.ipo .col h5{margin:0 0 8px;font-family:var(--serif);color:var(--navy);font-size:1rem}
+.ipo .col.p h5{color:var(--red)}
+.ipo ul{margin:0;padding-left:1.1em;font-size:.88rem}
+.ipo .t{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-left:4px}
+.ipo .nd{color:var(--red)}
+.ipo-wrap{border:1.5px dashed var(--muted);border-radius:12px;padding:14px;background:#fbfbf8;margin-top:14px}
+.ipo-wrap .env{font-size:.85rem;color:var(--muted)}
+.ipo-wrap .ret{margin-top:10px;border:2px dashed var(--red);border-radius:9px;padding:8px 12px;color:var(--red);font-size:.9rem;background:#fff}
+.itemrow{display:grid;grid-template-columns:1fr 170px auto;gap:8px;margin-top:8px}
+.itemrow button{padding:8px 14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:var(--navy-soft);color:var(--navy);border-radius:16px;padding:4px 6px 4px 12px;font-size:.85rem}
+.chip.nd{background:var(--red-soft);color:var(--red)}
+.chip button{padding:0 7px;font-size:.8rem;background:transparent;color:inherit;border-radius:50%}
+.chip button:hover{background:rgba(0,0,0,.08)}
+@media (max-width:980px){
+  .stepper{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .ipo{grid-template-columns:1fr}
+  .vsm{grid-template-columns:1fr}
+  .itemrow{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-inner">
+    <img src="data:image/png;base64,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flrOlIvlVxIvfT/Q8L9DbpR4efnHco7Ep/GPlUNkb4lXDDaQZl8+J4T0O67/Z2eLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAADaYosAAKAttggAANpiiwAAoC22CAAA2mKLAACgLbYIAABacu8//T+wJF0i54bpgwAAAABJRU5ErkJggg==" alt="Logotipo de la Universidad de Especialidades UNE">
+    <div>
+      <div class="inst">Universidad de Especialidades UNE &middot; Licenciatura en Ingeniería Industrial</div>
+      <h1>La ingeniería, la investigación y las organizaciones desde el enfoque de sistemas</h1>
+      <div class="meta">
+        <span><strong style="color:#fff">Asignatura:</strong> Teoría General de Sistemas</span>
+        <span><strong style="color:#fff">Temas:</strong> La ingeniería y la TGS &middot; Metodología en la investigación con base en la TGS &middot; El enfoque de sistemas en el desarrollo de las organizaciones</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="side" aria-label="Contenido de la guía">
+    <div class="ttl">Contenido</div>
+    <a href="#intro">Presentación y propósitos</a>
+    <a href="#problema">Problema detonador</a>
+    <a href="#ingenieria">Tema A. La ingeniería y la TGS</a>
+    <a href="#metodologia">Tema B. Metodología de investigación</a>
+    <a href="#organizaciones">Tema C. Enfoque de sistemas en las organizaciones</a>
+    <a href="#integracion">Integración de los tres temas</a>
+    <a href="#herramientas">Herramientas de trabajo</a>
+    <a href="#act1" class="act">Actividad 1. Foro</a>
+    <a href="#act2" class="act">Actividad 2. Mi sistema real</a>
+    <a href="#act3" class="act">Actividad 3. Quiz</a>
+    <a href="#reflexion">Reflexión y aplicación</a>
+    <a href="#referencias">Referencias</a>
+    <div class="progress" aria-hidden="true"><div id="prog"></div></div>
+  </nav>
+
+  <main>
+
+  <!-- ===================== INTRO ===================== -->
+  <section id="intro">
+    <h2><span class="num">00</span> Presentación y propósitos</h2>
+    <p class="lead">En el tema anterior aprendiste qué es un sistema y cuáles son sus componentes, características y principios. Ahora darás el paso hacia la práctica profesional: cómo usa el ingeniero ese enfoque para diseñar soluciones, cómo investiga un problema con una metodología sistémica y cómo se entiende una organización completa como un sistema vivo que aprende y se adapta.</p>
+
+    <div class="grid2">
+      <div class="box">
+        <div class="lbl">Propósito general</div>
+        <p>Aplicar el enfoque de sistemas para describir un sistema real de tu entorno laboral o académico, distinguir el tipo de problema que presenta y elegir una metodología pertinente para investigarlo y mejorarlo.</p>
+      </div>
+      <div class="box red">
+        <div class="lbl">Al finalizar serás capaz de</div>
+        <ul>
+          <li>Explicar la relación histórica y conceptual entre la ingeniería (en especial la industrial) y la TGS.</li>
+          <li>Diferenciar problemas duros y blandos, y seleccionar la metodología de Hall o la de Checkland según el caso.</li>
+          <li>Construir una definición raíz con el nemotécnico CATWOE.</li>
+          <li>Analizar una organización como sistema abierto y sociotécnico, con sus subsistemas.</li>
+          <li>Describir las entradas, el proceso, las salidas y la retroalimentación de un sistema real de tu trabajo.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>Ruta de aprendizaje</h3>
+    <table>
+      <thead><tr><th>Momento</th><th>Qué harás</th><th>Tiempo sugerido</th></tr></thead>
+      <tbody>
+        <tr><td>1. Activación</td><td>Analizar el caso de AgroEmpaque del Valle y registrar tu hipótesis.</td><td>20 min</td></tr>
+        <tr><td>2. Construcción</td><td>Estudiar los temas A, B y C con los recursos interactivos.</td><td>90 min</td></tr>
+        <tr><td>3. Discusión</td><td>Actividad 1: foro de mediación.</td><td>40 min + réplicas</td></tr>
+        <tr><td>4. Aplicación</td><td>Actividad 2: identificar y describir un sistema real de tu trabajo o entorno.</td><td>2 a 3 horas</td></tr>
+        <tr><td>5. Verificación</td><td>Actividad 3: quiz de cinco preguntas.</td><td>15 min</td></tr>
+        <tr><td>6. Metacognición</td><td>Reflexión y plan de aplicación.</td><td>20 min</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ===================== PROBLEMA ===================== -->
+  <section id="problema">
+    <h2><span class="num">01</span> Problema detonador</h2>
+    <div class="case">
+      <span class="tag red">Caso ABP</span>
+      <h3 style="margin-top:.6em">La máquina que no resolvió el problema: AgroEmpaque del Valle</h3>
+      <p>AgroEmpaque del Valle es una empacadora ficticia de aguacate para exportación con 180 trabajadores. Durante la temporada anterior, el 9 % de sus embarques fue rechazado en la frontera por fruta fuera de calibre o con daño mecánico. La dirección invirtió en una <strong>seleccionadora óptica automática</strong> que clasifica la fruta por tamaño y color con alta precisión. Seis meses después, los resultados fueron estos:</p>
+      <div class="data">
+        <div><b>99 %</b><span>precisión de la nueva seleccionadora</span></div>
+        <div><b>7 %</b><span>embarques rechazados (antes 9 %)</span></div>
+        <div><b>38 %</b><span>rotación anual del personal de empaque</span></div>
+        <div><b>3</b><span>áreas que se culpan entre sí: campo, empaque y logística</span></div>
+      </div>
+      <p>En entrevistas, los empacadores dicen que nadie les explicó cómo se evalúa su trabajo; los cortadores de campo cobran por caja cosechada, no por fruta sana; y logística carga los camiones sin verificar la temperatura porque "eso le toca a calidad". La máquina funciona perfectamente, pero el sistema sigue fallando.</p>
+    </div>
+
+    <div class="box">
+      <div class="lbl">Preguntas guía</div>
+      <ol>
+        <li>¿El problema de AgroEmpaque es técnico, humano u organizacional? ¿Puede ser las tres cosas a la vez?</li>
+        <li>¿Por qué una solución de ingeniería impecable produjo una mejora tan limitada?</li>
+        <li>Si tuvieras que investigar este caso, ¿por dónde empezarías: por medir la fruta o por entrevistar a las personas?</li>
+        <li>¿Qué subsistemas de la empresa están desconectados entre sí?</li>
+      </ol>
+    </div>
+    <label class="f" for="hip">Registra tu hipótesis inicial</label>
+    <textarea id="hip" data-save="tgs2_hip" placeholder="Ejemplo: Creo que la máquina solo atendió el síntoma; el daño se produce antes, en campo, porque el pago por caja incentiva cosechar rápido y no con cuidado..."></textarea>
+    <p class="hint">Se guarda en este navegador. La retomarás en la sección de reflexión.</p>
+  </section>
+
+  <!-- ===================== TEMA A ===================== -->
+  <section id="ingenieria">
+    <h2><span class="num">A</span> La ingeniería y la Teoría General de Sistemas</h2>
+    <p>La ingeniería tradicional se desarrolló con un enfoque analítico: dividir un problema técnico en partes, resolver cada una y ensamblar la solución. A mediados del siglo XX, los proyectos se volvieron tan grandes y tan interdependientes (sistemas de defensa, redes telefónicas, programas espaciales, grandes plantas industriales) que ese enfoque dejó de ser suficiente. De la convergencia entre la ingeniería y la TGS nació la <strong>ingeniería de sistemas</strong>, y la ingeniería industrial adoptó el enfoque sistémico como su forma natural de trabajo.</p>
+
+    <h3>Línea del tiempo: cómo se encontraron la ingeniería y los sistemas</h3>
+    <p>Haz clic en cada acontecimiento para ver su aporte.</p>
+    <div class="tl" id="tl"></div>
+
+    <h3>La ingeniería industrial como ingeniería de sistemas</h3>
+    <div class="quote">La ingeniería industrial se ocupa del diseño, la mejora y la instalación de sistemas integrados de personas, materiales, información, equipo y energía.
+      <cite>Definición adoptada por el Institute of Industrial and Systems Engineers (IISE)</cite>
+    </div>
+    <p>Observa que la definición no habla de máquinas ni de procesos aislados, sino de <strong>sistemas integrados</strong>. Esto implica que el ingeniero industrial:</p>
+    <table>
+      <thead><tr><th>Enfoque analítico tradicional</th><th>Enfoque sistémico en ingeniería</th></tr></thead>
+      <tbody>
+        <tr><td>Optimiza cada máquina o estación por separado.</td><td>Optimiza el flujo completo y reconoce que el todo condiciona a las partes.</td></tr>
+        <tr><td>Define el problema en términos técnicos.</td><td>Define el problema considerando personas, información, entorno y objetivos.</td></tr>
+        <tr><td>Busca una solución óptima única.</td><td>Compara alternativas (equifinalidad) según criterios múltiples: costo, tiempo, riesgo, impacto humano.</td></tr>
+        <tr><td>Termina su trabajo al entregar el diseño.</td><td>Incorpora retroalimentación: mide, aprende y ajusta durante la operación.</td></tr>
+        <tr><td>Considera el entorno como algo externo e irrelevante.</td><td>Analiza el entorno (clientes, normas, proveedores, comunidad) como fuente de restricciones y oportunidades.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Áreas de la ingeniería industrial y su lectura sistémica</h3>
+    <div class="grid3">
+      <div class="box"><div class="lbl">Distribución de planta</div><p>Diseña las relaciones espaciales entre subsistemas para reducir recorridos y esperas.</p></div>
+      <div class="box"><div class="lbl">Control de calidad</div><p>Es un mecanismo de retroalimentación: compara salidas contra el objetivo y corrige el proceso.</p></div>
+      <div class="box"><div class="lbl">Cadena de suministro</div><p>Aplica la recursividad: la planta es un subsistema de una red de proveedores, distribuidores y clientes.</p></div>
+      <div class="box"><div class="lbl">Ergonomía</div><p>Estudia el sistema persona-máquina-ambiente como una unidad.</p></div>
+      <div class="box"><div class="lbl">Investigación de operaciones</div><p>Modela sistemas matemáticamente para optimizar decisiones con restricciones.</p></div>
+      <div class="box"><div class="lbl">Mantenimiento</div><p>Es neguentropía: aporta energía e información para contrarrestar el desgaste.</p></div>
+    </div>
+
+    <div class="box red">
+      <div class="lbl">Conexión con el caso</div>
+      <p>La seleccionadora óptica es un buen ejemplo de ingeniería con enfoque analítico: resolvió muy bien un subsistema (la clasificación), pero dejó intactas las relaciones con campo, con logística y con las personas. Un enfoque de ingeniería de sistemas habría comenzado por preguntar dónde se genera realmente el daño a la fruta.</p>
+    </div>
+  </section>
+
+  <!-- ===================== TEMA B ===================== -->
+  <section id="metodologia">
+    <h2><span class="num">B</span> Metodología en la investigación con base en la TGS</h2>
+    <p>Investigar con enfoque de sistemas significa estudiar un fenómeno sin aislarlo de su contexto: se define la frontera del sistema, se identifican sus componentes y relaciones, se construyen modelos y se comparan con la realidad para proponer mejoras. Van Gigch distingue entre el <strong>paradigma científico</strong> (analítico, reduccionista, busca leyes generales mediante el aislamiento de variables) y el <strong>paradigma de sistemas</strong> (busca comprender el todo y sus interacciones, y admite que el observador forma parte de la situación).</p>
+
+    <h3>Primera decisión: ¿el problema es duro o blando?</h3>
+    <div class="grid2">
+      <div class="box">
+        <div class="lbl">Problemas duros (estructurados)</div>
+        <ul>
+          <li>El objetivo es claro y hay acuerdo sobre él.</li>
+          <li>Las variables se pueden medir y modelar.</li>
+          <li>Se busca la mejor solución técnica.</li>
+          <li>Ejemplo: reducir el tiempo de ciclo de una línea de 90 a 75 segundos.</li>
+        </ul>
+        <p><strong>Metodología sugerida:</strong> sistemas duros (Hall, Jenkins).</p>
+      </div>
+      <div class="box red">
+        <div class="lbl">Problemas blandos (no estructurados)</div>
+        <ul>
+          <li>No hay acuerdo sobre cuál es el problema.</li>
+          <li>Intervienen personas con intereses y percepciones distintas.</li>
+          <li>Se busca aprendizaje y acuerdos para el cambio.</li>
+          <li>Ejemplo: la alta rotación de personal y los conflictos entre áreas.</li>
+        </ul>
+        <p><strong>Metodología sugerida:</strong> sistemas suaves (Checkland).</p>
+      </div>
+    </div>
+
+    <h4>Práctica: clasifica cada situación</h4>
+    <div id="clasif"></div>
+    <p id="clasScore" class="hint"></p>
+
+    <h3>Dos metodologías sistémicas</h3>
+    <div class="tabs" role="tablist">
+      <button class="on" data-tab="tHall" role="tab">Metodología de Hall (sistemas duros)</button>
+      <button data-tab="tCheck" role="tab">Metodología de Checkland (sistemas suaves)</button>
+      <button data-tab="tComp" role="tab">Comparación</button>
+    </div>
+    <div class="tabpane on" id="tHall">
+      <p>Arthur D. Hall, ingeniero de los Laboratorios Bell, publicó en 1962 una de las primeras metodologías de ingeniería de sistemas. Es secuencial y se orienta a diseñar la mejor solución para un objetivo definido. Selecciona cada fase.</p>
+      <div class="stepper" id="hallSteps"></div>
+      <div class="stepinfo" id="hallInfo"></div>
+    </div>
+    <div class="tabpane" id="tCheck">
+      <p>Peter Checkland, en la Universidad de Lancaster, desarrolló la Metodología de Sistemas Suaves (SSM) al comprobar que los métodos de ingeniería fallaban en situaciones humanas complejas. Su propósito no es optimizar, sino <strong>aprender</strong> sobre la situación y lograr cambios deseables y factibles. Selecciona cada estadio.</p>
+      <div class="stepper red" id="checkSteps"></div>
+      <div class="stepinfo red" id="checkInfo"></div>
+    </div>
+    <div class="tabpane" id="tComp">
+      <table>
+        <thead><tr><th>Aspecto</th><th>Hall (duro)</th><th>Checkland (suave)</th></tr></thead>
+        <tbody>
+          <tr><td>Punto de partida</td><td>Un problema definido y un objetivo claro.</td><td>Una situación problemática difusa.</td></tr>
+          <tr><td>Pregunta central</td><td>¿Cómo lo hacemos de la mejor manera?</td><td>¿Qué está pasando y qué deberíamos hacer?</td></tr>
+          <tr><td>Resultado</td><td>Un sistema diseñado e implementado.</td><td>Aprendizaje y acuerdos para el cambio.</td></tr>
+          <tr><td>Herramientas</td><td>Modelos matemáticos, simulación, análisis costo-beneficio.</td><td>Imagen enriquecida, CATWOE, modelos conceptuales, debate.</td></tr>
+          <tr><td>Papel de las personas</td><td>Usuarios o variables del sistema.</td><td>Protagonistas con visiones del mundo distintas.</td></tr>
+          <tr><td>Aplicación en AgroEmpaque</td><td>Diseñar el proceso de verificación de temperatura en la carga.</td><td>Comprender por qué campo, empaque y logística no cooperan.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Herramienta clave: la definición raíz con CATWOE</h3>
+    <p>En la metodología de Checkland, una <strong>definición raíz</strong> describe en una oración qué hace el sistema, para quién, quién lo hace y bajo qué supuestos. Se construye con seis elementos:</p>
+    <table>
+      <thead><tr><th>Letra</th><th>Elemento</th><th>Pregunta</th><th>Ejemplo: AgroEmpaque del Valle</th></tr></thead>
+      <tbody>
+        <tr><td><strong>C</strong></td><td>Clientes</td><td>¿Quién se beneficia o se perjudica con el sistema?</td><td>Importadores y consumidores extranjeros; indirectamente, los productores.</td></tr>
+        <tr><td><strong>A</strong></td><td>Actores</td><td>¿Quién realiza las actividades?</td><td>Cortadores, empacadores, personal de calidad y de logística.</td></tr>
+        <tr><td><strong>T</strong></td><td>Transformación</td><td>¿Qué entrada se convierte en qué salida?</td><td>Aguacate cosechado sin clasificar &rarr; aguacate empacado que cumple la norma de exportación.</td></tr>
+        <tr><td><strong>W</strong></td><td>Visión del mundo (Weltanschauung)</td><td>¿Qué supuesto da sentido a la transformación?</td><td>La calidad se construye en toda la cadena, no se inspecciona al final.</td></tr>
+        <tr><td><strong>O</strong></td><td>Propietario</td><td>¿Quién puede detener o cambiar el sistema?</td><td>La dirección general de la empacadora.</td></tr>
+        <tr><td><strong>E</strong></td><td>Entorno</td><td>¿Qué restricciones externas se dan por hecho?</td><td>Normas fitosanitarias, temporada de cosecha, clima, tipo de cambio.</td></tr>
+      </tbody>
+    </table>
+    <div class="box ok">
+      <div class="lbl">Definición raíz resultante</div>
+      <p>Un sistema propiedad de la dirección de AgroEmpaque, operado por cortadores, empacadores, calidad y logística, que transforma aguacate cosechado en fruta empacada que cumple la norma de exportación para los importadores, bajo la convicción de que la calidad se construye en toda la cadena, y dentro de las restricciones fitosanitarias, climáticas y de temporada.</p>
+    </div>
+
+    <h4>Construye tu propia definición raíz</h4>
+    <p>Elige un sistema que conozcas (tu área de trabajo, un servicio de la universidad) y llena los campos. La definición raíz se genera automáticamente y te servirá para la Actividad 2.</p>
+    <div class="grid2">
+      <div>
+        <label class="f" for="cwC">C. Clientes</label><input type="text" id="cwC" data-save="tgs2_cwC">
+        <label class="f" for="cwA">A. Actores</label><input type="text" id="cwA" data-save="tgs2_cwA">
+        <label class="f" for="cwT1">T. Entrada que se transforma</label><input type="text" id="cwT1" data-save="tgs2_cwT1">
+        <label class="f" for="cwT2">T. Salida que resulta</label><input type="text" id="cwT2" data-save="tgs2_cwT2">
+      </div>
+      <div>
+        <label class="f" for="cwW">W. Visión del mundo</label><input type="text" id="cwW" data-save="tgs2_cwW">
+        <label class="f" for="cwO">O. Propietario</label><input type="text" id="cwO" data-save="tgs2_cwO">
+        <label class="f" for="cwE">E. Restricciones del entorno</label><input type="text" id="cwE" data-save="tgs2_cwE">
+      </div>
+    </div>
+    <div class="box" style="margin-top:16px"><div class="lbl">Tu definición raíz</div><p id="cwOut" style="margin:0">Completa los campos para ver tu definición raíz.</p></div>
+  </section>
+
+  <!-- ===================== TEMA C ===================== -->
+  <section id="organizaciones">
+    <h2><span class="num">C</span> El enfoque de sistemas en el desarrollo de las organizaciones</h2>
+    <p>Durante la primera mitad del siglo XX, las teorías administrativas veían a la organización como una máquina (administración científica, teoría clásica) o como un grupo social (relaciones humanas). El enfoque de sistemas integró ambas visiones: la organización es un <strong>sistema abierto</strong> que importa recursos del entorno, los transforma y exporta productos y servicios, y que sobrevive solo si se adapta.</p>
+
+    <h3>Cuatro aportes que conviene conocer</h3>
+    <div class="tabs" role="tablist">
+      <button class="on" data-tab="oAbierto" role="tab">Sistema abierto</button>
+      <button data-tab="oSocio" role="tab">Sistema sociotécnico</button>
+      <button data-tab="oSub" role="tab">Subsistemas organizacionales</button>
+      <button data-tab="oVSM" role="tab">Modelo de sistema viable</button>
+    </div>
+    <div class="tabpane on" id="oAbierto">
+      <h4 style="margin-top:0">Katz y Kahn (1966): la organización como sistema abierto</h4>
+      <p>Toda organización presenta un ciclo de eventos: importa energía (personas, materiales, información, capital), la transforma y exporta un producto al entorno, que a su vez devuelve recursos para reiniciar el ciclo. Para sobrevivir, la organización debe importar más energía de la que consume (<strong>entropía negativa</strong>), recibir información de su desempeño (<strong>retroalimentación negativa</strong>), mantener un equilibrio dinámico y tender a la diferenciación y especialización conforme crece.</p>
+      <p><strong>Implicación práctica:</strong> una empresa que deja de escuchar a sus clientes, de capacitar a su personal o de actualizar sus procesos entra en un proceso entrópico, aunque sus operaciones actuales sean eficientes.</p>
+    </div>
+    <div class="tabpane" id="oSocio">
+      <h4 style="margin-top:0">Instituto Tavistock (Trist y Bamforth, 1951): el sistema sociotécnico</h4>
+      <p>Al estudiar la mecanización de minas de carbón en Inglaterra, los investigadores observaron que la nueva tecnología redujo la productividad porque destruyó los equipos de trabajo autónomos que antes existían. Concluyeron que toda organización tiene dos subsistemas inseparables:</p>
+      <ul>
+        <li><strong>Subsistema técnico:</strong> tareas, equipos, instalaciones, procedimientos.</li>
+        <li><strong>Subsistema social:</strong> personas, relaciones, actitudes, cultura, motivación.</li>
+      </ul>
+      <p>El desempeño depende de la <strong>optimización conjunta</strong> de ambos. Mejorar uno sin considerar al otro suele producir resultados decepcionantes, exactamente como la seleccionadora óptica de AgroEmpaque.</p>
+    </div>
+    <div class="tabpane" id="oSub">
+      <h4 style="margin-top:0">Kast y Rosenzweig: cinco subsistemas de la organización</h4>
+      <table>
+        <thead><tr><th>Subsistema</th><th>Qué incluye</th><th>En AgroEmpaque del Valle</th></tr></thead>
+        <tbody>
+          <tr><td>Metas y valores</td><td>Misión, objetivos, valores que orientan las decisiones.</td><td>Exportar fruta de calidad; pero cada área persigue metas propias.</td></tr>
+          <tr><td>Técnico</td><td>Conocimientos, técnicas, equipos e instalaciones.</td><td>Seleccionadora óptica, cámaras de frío, bandas.</td></tr>
+          <tr><td>Psicosocial</td><td>Personas, motivación, relaciones, clima laboral.</td><td>Alta rotación, falta de reconocimiento, conflictos entre áreas.</td></tr>
+          <tr><td>Estructural</td><td>Forma de dividir e integrar tareas, autoridad y comunicación.</td><td>Áreas separadas sin mecanismos de coordinación.</td></tr>
+          <tr><td>Administrativo</td><td>Planeación, organización, control; integra a los demás.</td><td>Incentivos por volumen que contradicen la meta de calidad.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tabpane" id="oVSM">
+      <h4 style="margin-top:0">Stafford Beer: el Modelo de Sistema Viable (VSM)</h4>
+      <p>Beer, pionero de la cibernética organizacional, propuso que toda organización capaz de sobrevivir en un entorno cambiante (viable) contiene cinco funciones. Haz clic en cada una.</p>
+      <div class="vsm" id="vsm">
+        <div class="s wide" data-v="5" tabindex="0"><span class="n">Sistema 5</span><b>Política e identidad</b><small>¿Quiénes somos y hacia dónde vamos?</small></div>
+        <div class="s" data-v="4" tabindex="0"><span class="n">Sistema 4</span><b>Inteligencia</b><small>Mirar el entorno y el futuro</small></div>
+        <div class="s" data-v="3" tabindex="0"><span class="n">Sistema 3</span><b>Control y optimización</b><small>Gestionar el aquí y ahora</small></div>
+        <div class="s" data-v="2" tabindex="0"><span class="n">Sistema 2</span><b>Coordinación</b><small>Evitar choques entre unidades</small></div>
+        <div class="s" data-v="1" tabindex="0"><span class="n">Sistema 1</span><b>Operaciones</b><small>Las unidades que producen valor</small></div>
+      </div>
+      <div class="stepinfo" id="vsmInfo"><p style="margin:0">Selecciona un sistema para ver su función y su ejemplo.</p></div>
+    </div>
+
+    <h3>El desarrollo organizacional desde el enfoque de sistemas</h3>
+    <p>El <strong>desarrollo organizacional (DO)</strong> es un esfuerzo planeado, de largo plazo, para mejorar la capacidad de la organización de resolver sus problemas y adaptarse. Desde la TGS, el DO parte de tres ideas:</p>
+    <ol>
+      <li><strong>El cambio es sistémico:</strong> modificar la tecnología exige modificar la estructura, las competencias y los incentivos.</li>
+      <li><strong>La organización aprende mediante retroalimentación:</strong> Peter Senge describe la organización inteligente a partir de cinco disciplinas (dominio personal, modelos mentales, visión compartida, aprendizaje en equipo y pensamiento sistémico, que integra a las demás).</li>
+      <li><strong>No hay una única forma correcta de organizarse:</strong> según la teoría de la contingencia, la estructura adecuada depende del entorno y la tecnología (equifinalidad aplicada a la gestión).</li>
+    </ol>
+    <div class="box red">
+      <div class="lbl">Conexión con el caso</div>
+      <p>En AgroEmpaque, el Sistema 1 (operaciones) funciona por separado, el Sistema 2 (coordinación) prácticamente no existe y el Sistema 3 (control) premia metas locales. Un programa de desarrollo organizacional debería crear mecanismos de coordinación, alinear incentivos con la meta de calidad y hacer que la información sobre rechazos llegue a campo.</p>
+    </div>
+  </section>
+
+  <!-- ===================== INTEGRACIÓN ===================== -->
+  <section id="integracion">
+    <h2><span class="num">02</span> Integración de los tres temas</h2>
+    <p>Los tres temas forman una secuencia lógica del trabajo profesional del ingeniero industrial:</p>
+    <table>
+      <thead><tr><th>Pregunta</th><th>Tema que la responde</th><th>Resultado para AgroEmpaque</th></tr></thead>
+      <tbody>
+        <tr><td>¿Con qué mirada abordo el problema?</td><td>A. La ingeniería y la TGS</td><td>Ver la cadena completa campo-empaque-logística, no solo la clasificación.</td></tr>
+        <tr><td>¿Cómo investigo el problema?</td><td>B. Metodología de investigación con base en la TGS</td><td>Usar Checkland para comprender el conflicto entre áreas y Hall para diseñar el control de temperatura.</td></tr>
+        <tr><td>¿Cómo logro que el cambio perdure?</td><td>C. Enfoque de sistemas en las organizaciones</td><td>Optimizar conjuntamente los subsistemas técnico y social, y crear coordinación y retroalimentación.</td></tr>
+      </tbody>
+    </table>
+    <div class="box ok">
+      <div class="lbl">Propuesta sistémica de solución (ejemplo)</div>
+      <ol>
+        <li>Pagar a los cortadores por caja de fruta sana, no por caja cosechada (alinea incentivos con la meta).</li>
+        <li>Publicar diariamente en campo y en empaque el porcentaje de fruta rechazada y su causa (retroalimentación).</li>
+        <li>Instituir una reunión semanal breve entre campo, empaque y logística (Sistema 2 de coordinación).</li>
+        <li>Integrar la verificación de temperatura en la lista de carga de logística (diseño con metodología dura).</li>
+        <li>Capacitar al personal de empaque sobre los criterios de exportación y reconocer a los equipos con menor rechazo (subsistema psicosocial).</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===================== HERRAMIENTAS ===================== -->
+  <section id="herramientas">
+    <h2><span class="num">03</span> Herramientas de trabajo</h2>
+
+    <h3>A. Google Classroom: foro y comentarios</h3>
+    <ol class="steps">
+      <li>Ingresa a <strong>classroom.google.com</strong> con tu cuenta institucional y abre la clase de Teoría General de Sistemas.</li>
+      <li>En <strong>Trabajo en clase</strong>, abre la pregunta <em>Actividad 1. Foro</em>, escribe tu respuesta en <strong>Tu respuesta</strong> y selecciona <strong>Entregar</strong>.</li>
+      <li>Para replicar, abre la respuesta de un compañero y usa <strong>Agregar comentario de clase</strong>. Inicia con su nombre.</li>
+      <li>En la Actividad 2, adjunta tus archivos con <strong>Agregar o crear &gt; Archivo</strong> y selecciona <strong>Entregar</strong>. Después comenta el trabajo de dos compañeros en el tablón, siguiendo las indicaciones de la actividad.</li>
+    </ol>
+
+    <h3>B. diagrams.net (draw.io): diagrama de tu sistema</h3>
+    <ol class="steps">
+      <li>Abre <strong>app.diagrams.net</strong>, elige guardar en <strong>Google Drive</strong> y crea un <strong>Diagrama en blanco</strong> llamado <em>TGS_Sistema_TuNombre</em>.</li>
+      <li>Dibuja un rectángulo grande: la frontera del sistema. Escribe fuera los elementos del entorno (clientes, proveedores, normas).</li>
+      <li>Dentro, coloca a la izquierda las <strong>entradas</strong>, al centro el <strong>proceso</strong> con sus subsistemas y a la derecha las <strong>salidas</strong>. Une con flechas.</li>
+      <li>Marca con otro color las <strong>salidas no deseadas</strong> (residuos, errores, quejas).</li>
+      <li>Traza una flecha punteada de retorno (retroalimentación) y escribe qué información regresa.</li>
+      <li>Exporta con <strong>Archivo &gt; Exportar como &gt; PNG</strong>.</li>
+    </ol>
+    <div class="box"><div class="lbl">Atajo</div><p>El constructor de la Actividad 2 genera una vista previa del diagrama que puedes usar como boceto antes de pasarlo a diagrams.net.</p></div>
+
+    <h3>C. Imagen enriquecida (rich picture) a mano</h3>
+    <ol class="steps">
+      <li>En una hoja blanca, dibuja con figuras simples a las personas, áreas y objetos de la situación.</li>
+      <li>Une con líneas las relaciones; usa una línea cruzada (dos rayas) para indicar conflicto.</li>
+      <li>Agrega globos de diálogo con lo que piensa o le preocupa a cada actor.</li>
+      <li>Fotografía la hoja con buena luz. La imagen enriquecida es opcional en la Actividad 2 y suma puntos adicionales.</li>
+    </ol>
+  </section>
+
+  <!-- ===================== ACTIVIDAD 1 ===================== -->
+  <section id="act1">
+    <h2><span class="num">A1</span> Actividad 1. Foro de mediación: ¿máquinas o sistemas?</h2>
+    <p><span class="tag">Individual</span> <span class="tag red">Entrega en Classroom</span></p>
+    <div class="case" style="margin-top:14px">
+      <div style="font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--red)">Pregunta detonadora</div>
+      <p style="font-family:var(--serif);font-size:1.2rem;color:var(--navy);margin:8px 0 0">Muchas empresas invierten en tecnología esperando resolver problemas que, en el fondo, son de coordinación, incentivos o comunicación. ¿Hasta dónde llega la responsabilidad del ingeniero industrial: debe limitarse a optimizar máquinas y procesos, o también le corresponde intervenir en el sistema humano de la organización? Argumenta con un caso de tu trabajo o de tu entorno y clasifica ese problema como duro o blando.</p>
+    </div>
+
+    <h3>Instrucciones paso a paso</h3>
+    <ol class="steps">
+      <li><strong>Elige tu caso.</strong> Piensa en una situación real de tu trabajo (o de un negocio que conozcas bien) en la que se aplicó una solución técnica y el resultado fue menor al esperado, o en la que un problema técnico tenía una causa humana u organizacional.</li>
+      <li><strong>Publica tu aportación</strong> (180 a 250 palabras) con esta estructura: postura, caso concreto, clasificación del problema (duro o blando) con su justificación, concepto de la guía que lo explica (sociotécnico, sistema abierto, CATWOE, VSM, etc.) y una pregunta para tus compañeros.</li>
+      <li><strong>Replica a dos compañeros</strong> (80 a 120 palabras). En una réplica, propón qué metodología (Hall o Checkland) usarías para investigar su caso y por qué. En la otra, identifica qué subsistema de Kast y Rosenzweig está fallando en su ejemplo.</li>
+      <li><strong>Cierra tu hilo</strong> al final de la semana con dos o tres líneas sobre cómo cambió o se fortaleció tu postura.</li>
+    </ol>
+
+    <h3>Ejemplo de aportación</h3>
+    <div class="box ok">
+      <div class="lbl">Modelo (no copiar; usa tu propio caso)</div>
+      <p><strong>Postura:</strong> la responsabilidad del ingeniero industrial incluye el sistema humano, porque los procesos los operan personas. <strong>Caso:</strong> en la distribuidora de refacciones donde trabajo implementaron un lector de código de barras para reducir errores de surtido. Los errores bajaron poco, porque el personal de almacén evita usar el lector cuando hay prisa: la meta que les evalúan es el número de pedidos por hora, no la exactitud. <strong>Clasificación:</strong> es un problema blando, porque el supervisor, los almacenistas y ventas tienen visiones distintas de qué es un buen desempeño. <strong>Concepto:</strong> es un caso claro de sistema sociotécnico; se optimizó el subsistema técnico sin ajustar el social ni el administrativo. <strong>Pregunta:</strong> ¿cómo medirían ustedes la exactitud sin castigar la velocidad?</p>
+    </div>
+    <div class="box">
+      <div class="lbl">Ejemplo de réplica metodológica</div>
+      <p>Compañera Andrea: para tu caso de las quejas en el área de cajas usaría primero la metodología de Checkland, porque los cajeros, el gerente y los clientes tienen visiones diferentes del problema. Construiría una imagen enriquecida con entrevistas breves y, una vez acordado el cambio (por ejemplo, abrir una caja rápida), usaría la metodología de Hall para diseñar la distribución y el número de cajas por horario.</p>
+    </div>
+
+    <h3>Criterios de evaluación</h3>
+    <table class="rub">
+      <thead><tr><th>Criterio</th><th>Excelente (3)</th><th>Suficiente (2)</th><th>Insuficiente (1)</th></tr></thead>
+      <tbody>
+        <tr><td>Argumentación</td><td>Postura clara, sustentada en conceptos de la guía correctamente aplicados.</td><td>Postura clara, conceptos mencionados sin aplicar.</td><td>Postura ambigua, sin conceptos.</td></tr>
+        <tr><td>Caso propio y clasificación</td><td>Caso real de su trabajo o entorno, con detalles concretos y clasificación justificada.</td><td>Caso real sin detalles o clasificación sin justificar.</td><td>Caso genérico o sin clasificación.</td></tr>
+        <tr><td>Réplicas</td><td>Dos réplicas que cumplen las consignas (metodología y subsistema).</td><td>Dos réplicas que no cumplen del todo las consignas.</td><td>Una o ninguna réplica.</td></tr>
+        <tr><td>Cierre reflexivo</td><td>Explica la evolución de su postura.</td><td>Cierre descriptivo.</td><td>Sin cierre.</td></tr>
+      </tbody>
+    </table>
+    <div class="box warn"><div class="lbl">Integridad académica</div><p>Las aportaciones deben partir de experiencias propias y verificables. Una respuesta teóricamente correcta pero sin un caso personal concreto se evaluará como insuficiente.</p></div>
+  </section>
+
+  <!-- ===================== ACTIVIDAD 2 ===================== -->
+  <section id="act2">
+    <h2><span class="num">A2</span> Actividad 2. Identificar y describir un sistema real de mi entorno</h2>
+    <p><span class="tag">Individual</span> <span class="tag red">Entrega en Classroom</span> <span class="tag">Coevaluación entre pares</span></p>
+    <p>Aplicarás el enfoque de sistemas a un sistema real que conozcas de primera mano, <strong>de preferencia de tu trabajo</strong>. Si no trabajas actualmente, elige el negocio de un familiar, un trabajo anterior o un servicio de la universidad que uses con frecuencia. Describirás sus entradas y salidas, su proceso, su retroalimentación y su entorno, y concluirás con un diagnóstico sistémico.</p>
+
+    <h3>Ejemplos de sistemas que puedes elegir</h3>
+    <div class="grid3">
+      <div class="box"><div class="lbl">Manufactura</div><p>Una línea de ensamble, el área de inyección de plástico, el almacén de materia prima, el taller de mantenimiento.</p></div>
+      <div class="box"><div class="lbl">Servicios</div><p>El área de cajas de un supermercado, la recepción de un hotel, el surtido de pedidos en una farmacia, la atención en un banco.</p></div>
+      <div class="box"><div class="lbl">Otros entornos</div><p>La producción de una panadería familiar, el control escolar de la universidad, la logística de un negocio de comida a domicilio.</p></div>
+    </div>
+
+    <h3>Instrucciones paso a paso</h3>
+    <ol class="steps">
+      <li><strong>Selecciona y delimita el sistema.</strong> Nómbralo, escribe su objetivo en una oración y define su frontera: qué queda dentro y qué queda fuera.</li>
+      <li><strong>Identifica las entradas</strong> y clasifícalas por tipo: materiales, energía, información, personas o recursos financieros. Registra al menos seis.</li>
+      <li><strong>Describe el proceso</strong> y sus subsistemas (etapas o áreas) en el orden en que ocurren.</li>
+      <li><strong>Identifica las salidas</strong>, distinguiendo las deseadas (productos, servicios) de las no deseadas (desperdicios, errores, quejas, emisiones). Registra al menos cinco.</li>
+      <li><strong>Describe la retroalimentación:</strong> qué información sobre las salidas regresa al sistema, quién la recibe y qué decisiones permite. Si no existe, señálalo; es un hallazgo importante.</li>
+      <li><strong>Describe el entorno:</strong> clientes, proveedores, competencia, normas y otros factores que influyen sin ser controlados.</li>
+      <li><strong>Formula la definición raíz</strong> con CATWOE (puedes usar el constructor del Tema B).</li>
+      <li><strong>Diagnostica:</strong> identifica un problema del sistema, clasifícalo como duro o blando, indica qué metodología usarías para investigarlo y qué subsistema organizacional (técnico, psicosocial, estructural, administrativo o de metas) está involucrado.</li>
+      <li><strong>Documenta la evidencia:</strong> incluye una fotografía del lugar o del proceso (sin rostros de terceros ni información confidencial de la empresa) y un dato que hayas observado o medido con fecha (por ejemplo, piezas producidas en una hora, tiempo de atención de un cliente).</li>
+      <li><strong>Entrega en Classroom:</strong> un PDF de máximo 4 cuartillas con la ficha del sistema, el diagrama (PNG) y la fotografía.</li>
+      <li><strong>Coevalúa:</strong> comenta en el tablón el trabajo de dos compañeros, señalando una entrada o salida que no consideraron y una sugerencia de retroalimentación.</li>
+    </ol>
+
+    <h3>Ejemplo resuelto: surtido de pedidos en una farmacia</h3>
+    <table>
+      <thead><tr><th>Elemento</th><th>Descripción</th></tr></thead>
+      <tbody>
+        <tr><td>Objetivo</td><td>Entregar al cliente los medicamentos correctos en menos de cinco minutos.</td></tr>
+        <tr><td>Frontera</td><td>Mostrador, anaquel, caja y sistema de inventario de la sucursal. El centro de distribución queda fuera.</td></tr>
+        <tr><td>Entradas</td><td>Receta o solicitud del cliente (información); medicamentos del centro de distribución (materiales); personal de mostrador (personas); energía eléctrica (energía); catálogo de precios (información); fondo de caja (financiero).</td></tr>
+        <tr><td>Proceso y subsistemas</td><td>Recepción de la solicitud &rarr; verificación de receta &rarr; búsqueda en anaquel &rarr; cobro &rarr; entrega y orientación.</td></tr>
+        <tr><td>Salidas deseadas</td><td>Medicamento entregado, ticket de venta, cliente orientado, registro de venta en el inventario.</td></tr>
+        <tr><td>Salidas no deseadas</td><td>Tiempo de espera excesivo, faltantes no surtidos, errores de producto, quejas.</td></tr>
+        <tr><td>Retroalimentación</td><td>El sistema registra faltantes pero nadie los revisa; no se mide el tiempo de espera. <strong>Hallazgo:</strong> la retroalimentación es incompleta.</td></tr>
+        <tr><td>Entorno</td><td>Clientes, farmacias competidoras, regulación sanitaria, centro de distribución, laboratorios.</td></tr>
+        <tr><td>Diagnóstico</td><td>El problema de faltantes es <strong>duro</strong> (se puede medir y modelar el punto de reorden); la metodología de Hall es adecuada. Involucra el subsistema técnico y el administrativo.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Constructor interactivo de tu sistema</h3>
+    <p>Agrega las entradas y salidas de tu sistema. La vista previa del diagrama se actualiza en tiempo real y al final puedes descargar la ficha para integrarla a tu documento. Los datos se guardan en este navegador.</p>
+    <div class="grid2">
+      <div>
+        <label class="f" for="sNombre">Nombre del sistema</label><input type="text" id="sNombre" data-save="tgs2_sNombre" placeholder="Ejemplo: Área de inyección de plástico, turno matutino">
+        <label class="f" for="sObj">Objetivo</label><input type="text" id="sObj" data-save="tgs2_sObj">
+        <label class="f" for="sFront">Frontera (qué queda dentro y fuera)</label><input type="text" id="sFront" data-save="tgs2_sFront">
+      </div>
+      <div>
+        <label class="f" for="sProc">Proceso y subsistemas (sepáralos con punto y coma)</label><input type="text" id="sProc" data-save="tgs2_sProc" placeholder="Recepción; verificación; surtido; cobro; entrega">
+        <label class="f" for="sRet">Retroalimentación</label><input type="text" id="sRet" data-save="tgs2_sRet">
+        <label class="f" for="sEnt">Entorno</label><input type="text" id="sEnt" data-save="tgs2_sEnt">
+      </div>
+    </div>
+
+    <label class="f" for="inTxt">Agregar entrada</label>
+    <div class="itemrow">
+      <input type="text" id="inTxt" placeholder="Ejemplo: resina de polipropileno">
+      <select id="inType"><option>Materiales</option><option>Energía</option><option>Información</option><option>Personas</option><option>Recursos financieros</option></select>
+      <button id="inAdd">Agregar</button>
+    </div>
+    <div class="chips" id="inChips"></div>
+
+    <label class="f" for="outTxt">Agregar salida</label>
+    <div class="itemrow">
+      <input type="text" id="outTxt" placeholder="Ejemplo: tapas inyectadas">
+      <select id="outType"><option>Deseada</option><option>No deseada</option></select>
+      <button id="outAdd">Agregar</button>
+    </div>
+    <div class="chips" id="outChips"></div>
+    <p class="hint" id="counts"></p>
+
+    <div class="ipo-wrap" aria-live="polite">
+      <div class="env"><strong>Entorno:</strong> <span id="pvEnt">(pendiente)</span></div>
+      <div class="ipo">
+        <div class="col"><h5>Entradas</h5><ul id="pvIn"></ul></div>
+        <div class="col p"><h5 id="pvName">Proceso</h5><ul id="pvProc"></ul></div>
+        <div class="col"><h5>Salidas</h5><ul id="pvOut"></ul></div>
+      </div>
+      <div class="ret"><strong>Retroalimentación:</strong> <span id="pvRet">(pendiente)</span></div>
+    </div>
+
+    <label class="f" for="sDiag">Diagnóstico: problema, clasificación (duro o blando), metodología y subsistema involucrado</label>
+    <textarea id="sDiag" data-save="tgs2_sDiag"></textarea>
+    <label class="f" for="sDato">Dato observado o medido (con fecha)</label>
+    <input type="text" id="sDato" data-save="tgs2_sDato" placeholder="Ejemplo: 29/09/2026, 10:00 a 11:00 h: 412 piezas producidas, 9 rechazadas">
+
+    <div class="row">
+      <button id="sDown">Descargar ficha (.txt)</button>
+      <button class="secondary" id="sCopy">Copiar ficha</button>
+      <button class="secondary" id="sClear">Vaciar entradas y salidas</button>
+    </div>
+
+    <h3>Rúbrica de evaluación</h3>
+    <table class="rub">
+      <thead><tr><th>Criterio (peso)</th><th>Excelente</th><th>Suficiente</th><th>Insuficiente</th></tr></thead>
+      <tbody>
+        <tr><td>Delimitación y objetivo (10 %)</td><td>Objetivo preciso y frontera claramente justificada.</td><td>Objetivo y frontera presentes pero imprecisos.</td><td>Sin frontera u objetivo.</td></tr>
+        <tr><td>Entradas y salidas (30 %)</td><td>Seis o más entradas clasificadas por tipo; cinco o más salidas, incluidas no deseadas.</td><td>Entradas y salidas incompletas o sin clasificar.</td><td>Menos de tres entradas o salidas.</td></tr>
+        <tr><td>Proceso, retroalimentación y entorno (20 %)</td><td>Subsistemas en orden, retroalimentación analizada críticamente, entorno completo.</td><td>Descripción general sin análisis.</td><td>Elementos ausentes.</td></tr>
+        <tr><td>CATWOE y diagnóstico (25 %)</td><td>Definición raíz coherente; problema clasificado con metodología y subsistema justificados.</td><td>Diagnóstico presente sin justificación suficiente.</td><td>Sin diagnóstico o incoherente.</td></tr>
+        <tr><td>Evidencia y coevaluación (15 %)</td><td>Fotografía, dato fechado y dos comentarios de coevaluación útiles.</td><td>Evidencia o coevaluación parcial.</td><td>Sin evidencia.</td></tr>
+      </tbody>
+    </table>
+    <div class="box warn"><div class="lbl">Confidencialidad</div><p>Si describes tu lugar de trabajo, no incluyas datos confidenciales (costos reales, nombres de clientes, información personal). Puedes usar un nombre genérico para la empresa.</p></div>
+  </section>
+
+  <!-- ===================== ACTIVIDAD 3 ===================== -->
+  <section id="act3">
+    <h2><span class="num">A3</span> Actividad 3. Quiz de verificación</h2>
+    <p><span class="tag">Individual</span> <span class="tag red">Entrega en Classroom</span></p>
+    <ol class="steps">
+      <li>Escribe tu nombre completo y tu grupo.</li>
+      <li>Responde las cinco preguntas. Puedes cambiar tu respuesta antes de calificar.</li>
+      <li>Selecciona <strong>Calificar quiz</strong> para ver tu puntaje y la retroalimentación de cada pregunta.</li>
+      <li>Toma una captura de pantalla donde se vean tu nombre, tu puntaje y la fecha, y súbela a Classroom.</li>
+      <li>Si obtuviste menos de 4, repasa las secciones indicadas, repite el quiz y entrega ambas capturas.</li>
+    </ol>
+    <div class="grid2">
+      <div><label class="f" for="qName">Nombre completo</label><input type="text" id="qName"></div>
+      <div><label class="f" for="qGroup">Grupo</label><input type="text" id="qGroup"></div>
+    </div>
+    <div id="quiz" style="margin-top:18px"></div>
+    <div class="row"><button id="qGrade">Calificar quiz</button><button class="secondary" id="qReset">Reiniciar quiz</button></div>
+    <div class="score" id="qScore" aria-live="polite"></div>
+  </section>
+
+  <!-- ===================== REFLEXIÓN ===================== -->
+  <section id="reflexion">
+    <h2><span class="num">04</span> Reflexión y aplicación</h2>
+    <p>El enfoque de sistemas se vuelve útil cuando lo conviertes en hábito. Responde este planificador personal; se guarda solo en tu navegador y puedes descargarlo.</p>
+    <div class="box">
+      <div class="lbl">Contrasta con tu hipótesis inicial</div>
+      <p id="hipBack" style="font-style:italic;color:var(--muted)">Aún no registraste tu hipótesis en el problema detonador.</p>
+      <p style="margin:0">¿Qué conceptos de esta guía te permiten ahora explicar mejor el caso de AgroEmpaque del Valle?</p>
+    </div>
+
+    <label class="f" for="r1">1. En mi vida académica: ¿qué problema de mis estudios es duro y cuál es blando? ¿Cómo abordaré cada uno?</label>
+    <textarea id="r1" data-save="tgs2_r1"></textarea>
+    <label class="f" for="r2">2. En mi trabajo actual o futuro: ¿qué entrada o salida del sistema que analicé propondré mejorar primero, y con qué indicador?</label>
+    <textarea id="r2" data-save="tgs2_r2"></textarea>
+    <label class="f" for="r3">3. Como futuro ingeniero industrial: ¿cómo evitaré implementar soluciones técnicas que ignoren el subsistema social?</label>
+    <textarea id="r3" data-save="tgs2_r3"></textarea>
+    <label class="f" for="r4">4. En equipo: ¿qué mecanismo de coordinación (Sistema 2) propondré en mi próximo proyecto grupal?</label>
+    <textarea id="r4" data-save="tgs2_r4"></textarea>
+    <label class="f" for="r5">5. Compromiso para los próximos siete días</label>
+    <input type="text" id="r5" data-save="tgs2_r5">
+    <div class="row">
+      <button id="rDown">Descargar mi plan (.txt)</button>
+      <button class="secondary" id="rClear">Borrar respuestas</button>
+      <span class="saved" id="savedMsg"></span>
+    </div>
+
+    <h3>Tabla de aplicación</h3>
+    <table>
+      <thead><tr><th>Concepto</th><th>En tu vida académica</th><th>En tu vida profesional</th></tr></thead>
+      <tbody>
+        <tr><td>Enfoque de ingeniería de sistemas</td><td>Planear un proyecto final considerando tiempo, equipo, recursos y criterios de evaluación como un todo.</td><td>Evaluar el impacto de un cambio en toda la cadena antes de implementarlo.</td></tr>
+        <tr><td>Metodología de Hall</td><td>Resolver ejercicios de optimización con pasos ordenados: definir, modelar, comparar, decidir.</td><td>Diseñar un nuevo proceso, una distribución de planta o un sistema de inventarios.</td></tr>
+        <tr><td>Metodología de Checkland y CATWOE</td><td>Entender los desacuerdos de un equipo antes de proponer soluciones.</td><td>Diagnosticar conflictos entre áreas, resistencias al cambio o problemas de clima laboral.</td></tr>
+        <tr><td>Sistema sociotécnico</td><td>Elegir herramientas digitales que el equipo realmente sabrá y querrá usar.</td><td>Acompañar la implementación de tecnología con capacitación e incentivos adecuados.</td></tr>
+        <tr><td>Modelo de sistema viable</td><td>Asignar en un equipo quién coordina, quién controla avances y quién anticipa riesgos.</td><td>Diagnosticar qué función falta en un departamento o empresa.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ===================== REFERENCIAS ===================== -->
+  <section id="referencias">
+    <h2><span class="num">05</span> Referencias</h2>
+    <ul>
+      <li>Beer, S. (1985). <em>Diagnosing the system for organizations</em>. John Wiley &amp; Sons.</li>
+      <li>Bertalanffy, L. von (1976). <em>Teoría general de los sistemas</em>. Fondo de Cultura Económica.</li>
+      <li>Checkland, P. (1993). <em>Pensamiento de sistemas, práctica de sistemas</em>. Limusa.</li>
+      <li>Hall, A. D. (1962). <em>A methodology for systems engineering</em>. Van Nostrand.</li>
+      <li>Johansen Bertoglio, O. (2004). <em>Introducción a la teoría general de sistemas</em>. Limusa.</li>
+      <li>Kast, F. E. y Rosenzweig, J. E. (1988). <em>Administración en las organizaciones: enfoque de sistemas y de contingencias</em> (4.ª ed.). McGraw-Hill.</li>
+      <li>Katz, D. y Kahn, R. L. (1977). <em>Psicología social de las organizaciones</em>. Trillas.</li>
+      <li>Senge, P. M. (2005). <em>La quinta disciplina</em>. Granica.</li>
+      <li>Trist, E. L. y Bamforth, K. W. (1951). Some social and psychological consequences of the longwall method of coal-getting. <em>Human Relations, 4</em>(1), 3-38.</li>
+      <li>Van Gigch, J. P. (2006). <em>Teoría general de sistemas</em> (3.ª ed.). Trillas.</li>
+    </ul>
+    <p class="hint">AgroEmpaque del Valle es un caso ficticio elaborado con fines didácticos.</p>
+  </section>
+
+  <div class="foot">Universidad de Especialidades UNE &middot; Licenciatura en Ingeniería Industrial &middot; Teoría General de Sistemas</div>
+  </main>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  function sGet(k){ try{ return window.localStorage.getItem(k); }catch(e){ return null; } }
+  function sSet(k,v){ try{ window.localStorage.setItem(k,v); }catch(e){} }
+  function sDel(k){ try{ window.localStorage.removeItem(k); }catch(e){} }
+  function $(id){ return document.getElementById(id); }
+  function esc(t){ return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function download(name, text){
+    var blob = new Blob([text], {type:"text/plain;charset=utf-8"});
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = name;
+    document.body.appendChild(a); a.click();
+    setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); }, 400);
+  }
+  function copyText(text, btn, label){
+    function done(){ btn.textContent = "Copiado"; setTimeout(function(){ btn.textContent = label; }, 1500); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done, function(){ window.prompt("Copia el texto:", text); });
+    } else { window.prompt("Copia el texto:", text); }
+  }
+  function onKeyAct(el, fn){
+    el.addEventListener("click", fn);
+    el.addEventListener("keydown", function(ev){ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); fn.call(el, ev); } });
+  }
+
+  /* ---------- Campos persistentes ---------- */
+  var saveTimer = null;
+  var fields = document.querySelectorAll("[data-save]");
+  for (var i=0;i<fields.length;i++){
+    (function(el){
+      var v = sGet(el.getAttribute("data-save"));
+      if (v !== null) el.value = v;
+      el.addEventListener("input", function(){
+        sSet(el.getAttribute("data-save"), el.value);
+        if (el.id === "hip") showHip();
+        if (el.id.indexOf("cw") === 0) catwoe();
+        if (el.id.charAt(0) === "s") preview();
+        if (/^r\d$/.test(el.id)){
+          $("savedMsg").textContent = "Guardado";
+          clearTimeout(saveTimer);
+          saveTimer = setTimeout(function(){ $("savedMsg").textContent = ""; }, 1400);
+        }
+      });
+    })(fields[i]);
+  }
+  function showHip(){
+    var h = $("hip").value.trim();
+    $("hipBack").textContent = h ? ("Tu hipótesis: " + h) : "Aún no registraste tu hipótesis en el problema detonador.";
+  }
+  showHip();
+
+  /* ---------- Pestañas ---------- */
+  var tabBtns = document.querySelectorAll(".tabs button");
+  for (var t=0;t<tabBtns.length;t++){
+    tabBtns[t].addEventListener("click", function(){
+      var bar = this.parentNode;
+      var sibs = bar.querySelectorAll("button");
+      for (var k=0;k<sibs.length;k++){
+        sibs[k].classList.remove("on");
+        $(sibs[k].getAttribute("data-tab")).classList.remove("on");
+      }
+      this.classList.add("on");
+      $(this.getAttribute("data-tab")).classList.add("on");
+    });
+  }
+
+  /* ---------- Línea del tiempo ---------- */
+  var tl = [
+    ["1911","Administración científica (Taylor)","Nace la ingeniería industrial con el estudio de tiempos y movimientos. Su enfoque es analítico: optimiza cada tarea por separado."],
+    ["1940-1945","Investigación de operaciones","Equipos interdisciplinarios de científicos e ingenieros resuelven problemas logísticos y militares como sistemas completos. Nace el trabajo con modelos de sistemas."],
+    ["1948","Cibernética (Wiener)","Norbert Wiener estudia el control y la comunicación en máquinas y seres vivos. La retroalimentación se vuelve un concepto central de la ingeniería."],
+    ["1950-1968","Teoría General de Sistemas (Bertalanffy)","Bertalanffy propone principios comunes a todos los sistemas. En 1954 se funda la Society for General Systems Research."],
+    ["1951","Enfoque sociotécnico (Tavistock)","Trist y Bamforth demuestran que la tecnología y la organización social del trabajo deben diseñarse en conjunto."],
+    ["1962","Metodología de ingeniería de sistemas (Hall)","Arthur D. Hall, de Bell Labs, formaliza una metodología para diseñar grandes sistemas técnicos."],
+    ["1960-1970","Programas espaciales y grandes proyectos","La ingeniería de sistemas se consolida al coordinar miles de subsistemas y proveedores en proyectos como el programa Apolo."],
+    ["1972","Modelo de sistema viable (Beer)","Stafford Beer aplica la cibernética a la gestión de organizaciones y propone cinco funciones necesarias para la viabilidad."],
+    ["1981","Metodología de sistemas suaves (Checkland)","Checkland publica su metodología para situaciones humanas complejas donde los métodos duros fallaban."],
+    ["1990","La quinta disciplina (Senge)","Peter Senge populariza el pensamiento sistémico en la gestión mediante el concepto de organización inteligente."],
+    ["Actualidad","Industria 4.0 y sistemas ciberfísicos","Sensores, datos en tiempo real y automatización exigen al ingeniero industrial integrar sistemas técnicos, humanos y de información."]
+  ];
+  var th = "";
+  for (var e=0;e<tl.length;e++){
+    th += "<div class='ev' tabindex='0' role='button' aria-expanded='false'><span class='y'>" + tl[e][0] + "</span><b>" + tl[e][1] + "</b><div class='d'>" + tl[e][2] + "</div></div>";
+  }
+  $("tl").innerHTML = th;
+  var evs = document.querySelectorAll("#tl .ev");
+  for (var e2=0;e2<evs.length;e2++){
+    onKeyAct(evs[e2], function(){ var o = this.classList.toggle("open"); this.setAttribute("aria-expanded", o ? "true" : "false"); });
+  }
+
+  /* ---------- Clasificador duro / blando ---------- */
+  var cl = [
+    {s:"Determinar la cantidad óptima de pedido de tornillos para minimizar el costo de inventario.", a:"Duro", f:"El objetivo es claro y las variables (demanda, costo de pedido, costo de almacenamiento) se pueden medir y modelar."},
+    {s:"El personal del turno nocturno se resiste a usar el nuevo sistema de registro digital y los supervisores no se ponen de acuerdo sobre la causa.", a:"Blando", f:"No hay acuerdo sobre el problema y hay percepciones e intereses distintos."},
+    {s:"Balancear una línea de ensamble de 8 estaciones para alcanzar una producción de 480 piezas por turno.", a:"Duro", f:"Es un problema estructurado con objetivo cuantificable y técnicas conocidas de balanceo."},
+    {s:"Ventas y producción tienen conflictos constantes porque cada área considera que la otra no cumple sus compromisos.", a:"Blando", f:"Es una situación con visiones del mundo diferentes; requiere comprender y construir acuerdos."},
+    {s:"Reducir en 15 % el consumo de energía eléctrica de los compresores de una planta.", a:"Duro", f:"La meta es medible y la solución puede diseñarse con análisis técnico."}
+  ];
+  var ch = "";
+  for (var c=0;c<cl.length;c++){
+    ch += "<div class='clas'><p><strong>" + (c+1) + ".</strong> " + cl[c].s + "</p><div class='btns'><button class='secondary' data-c='" + c + "' data-v='Duro'>Problema duro</button><button class='secondary' data-c='" + c + "' data-v='Blando'>Problema blando</button></div><div class='fbk' id='cf" + c + "'></div></div>";
+  }
+  $("clasif").innerHTML = ch;
+  var clAns = {};
+  var cbs = document.querySelectorAll("#clasif button");
+  for (var c2=0;c2<cbs.length;c2++){
+    cbs[c2].addEventListener("click", function(){
+      var idx = parseInt(this.getAttribute("data-c"),10), v = this.getAttribute("data-v");
+      var fb = $("cf"+idx);
+      if (v === cl[idx].a){ fb.className = "fbk good"; fb.textContent = "Correcto. " + cl[idx].f; clAns[idx] = true; }
+      else { fb.className = "fbk bad"; fb.textContent = "Revisa: " + cl[idx].f; clAns[idx] = false; }
+      var n = 0, ok = 0;
+      for (var key in clAns){ if (clAns.hasOwnProperty(key)){ n++; if (clAns[key]) ok++; } }
+      $("clasScore").textContent = "Respondidas: " + n + " de " + cl.length + ". Aciertos: " + ok + ".";
+    });
+  }
+
+  /* ---------- Metodologías ---------- */
+  var hall = [
+    ["1. Definición del problema","Se describe la necesidad a partir de datos del entorno y del sistema actual.","Determinar con datos qué proporción de los rechazos se debe a temperatura inadecuada durante la carga."],
+    ["2. Selección de objetivos","Se establecen los objetivos y criterios con los que se evaluarán las alternativas (sistema de valores).","Reducir a 0 % los rechazos por temperatura sin aumentar más de 10 minutos el tiempo de carga."],
+    ["3. Síntesis del sistema","Se generan alternativas de solución de manera creativa.","Termómetro manual con bitácora; sensores inalámbricos; precarga en andén refrigerado."],
+    ["4. Análisis del sistema","Se estudian las consecuencias de cada alternativa con modelos, datos y simulación.","Estimar costo, tiempo de carga y confiabilidad de cada opción."],
+    ["5. Selección del sistema óptimo","Se comparan las alternativas contra los objetivos y se elige la mejor.","Elegir sensores inalámbricos por su confiabilidad y bajo impacto en el tiempo de carga."],
+    ["6. Desarrollo del sistema","Se diseña en detalle y se prepara la implementación.","Especificar sensores, capacitar a logística, integrar la lectura en la lista de verificación."],
+    ["7. Ingeniería actual (operación)","Se implementa, se opera y se retroalimenta para corregir y mejorar.","Revisar semanalmente los registros de temperatura y los rechazos."]
+  ];
+  var check = [
+    ["1. Situación no estructurada","Se reconoce una situación problemática sin definir aún el problema.","Hay rechazos, rotación y conflictos, pero cada área tiene una explicación distinta."],
+    ["2. Situación expresada","Se describe la situación con una imagen enriquecida: actores, relaciones, conflictos y preocupaciones.","Dibujo de campo, empaque, logística y dirección, con los reclamos que se hacen entre sí."],
+    ["3. Definiciones raíz","Se formulan definiciones de sistemas pertinentes usando CATWOE.","Definición raíz del sistema de calidad construido en toda la cadena."],
+    ["4. Modelos conceptuales","Se modelan las actividades mínimas que el sistema definido debería realizar.","Cosechar con cuidado, informar causas de rechazo, coordinar semanalmente, verificar temperatura."],
+    ["5. Comparación con la realidad","Se contrastan los modelos con lo que realmente ocurre para detectar diferencias.","No existe retroalimentación de rechazos hacia campo ni reunión de coordinación."],
+    ["6. Cambios deseables y factibles","Se debaten con los actores los cambios que son sistémicamente deseables y culturalmente factibles.","Acordar el pago por caja sana y una reunión semanal de 20 minutos."],
+    ["7. Acción para mejorar","Se implementan los cambios, lo que genera una nueva situación y reinicia el ciclo de aprendizaje.","Piloto de un mes en dos cuadrillas de corte; evaluación y ajuste."]
+  ];
+  function stepper(listId, infoId, data){
+    var h = "";
+    for (var i=0;i<data.length;i++){ h += "<button data-i='" + i + "'>" + data[i][0] + "</button>"; }
+    $(listId).innerHTML = h;
+    var bs = $(listId).querySelectorAll("button");
+    function show(i){
+      for (var k=0;k<bs.length;k++){ bs[k].classList.toggle("on", k === i); }
+      $(infoId).innerHTML = "<h4>" + data[i][0] + "</h4><p>" + data[i][1] + "</p><p style='margin:0'><strong>En AgroEmpaque:</strong> " + data[i][2] + "</p>";
+    }
+    for (var j=0;j<bs.length;j++){ bs[j].addEventListener("click", function(){ show(parseInt(this.getAttribute("data-i"),10)); }); }
+    show(0);
+  }
+  stepper("hallSteps","hallInfo",hall);
+  stepper("checkSteps","checkInfo",check);
+
+  /* ---------- CATWOE ---------- */
+  function catwoe(){
+    function g(id){ return $(id).value.trim(); }
+    var ids = ["cwC","cwA","cwT1","cwT2","cwW","cwO","cwE"], filled = 0;
+    for (var i=0;i<ids.length;i++){ if (g(ids[i])) filled++; }
+    if (filled === 0){ $("cwOut").textContent = "Completa los campos para ver tu definición raíz."; return; }
+    function v(id){ return g(id) || "[" + id.replace("cw","").replace("T1","T entrada").replace("T2","T salida") + "]"; }
+    $("cwOut").textContent = "Un sistema propiedad de " + v("cwO") + ", operado por " + v("cwA") + ", que transforma " + v("cwT1") + " en " + v("cwT2") + " para " + v("cwC") + ", bajo la convicción de que " + v("cwW") + ", y dentro de las restricciones de " + v("cwE") + ".";
+  }
+  catwoe();
+
+  /* ---------- VSM ---------- */
+  var vsm = {
+    "5":["Sistema 5. Política e identidad","Define la identidad, los valores y el propósito de la organización; equilibra las demandas del presente (Sistema 3) y del futuro (Sistema 4).","La dirección general define que AgroEmpaque compite por calidad y no por volumen."],
+    "4":["Sistema 4. Inteligencia","Observa el entorno y el futuro: mercados, tecnología, normas. Propone adaptaciones.","Monitorear cambios en las normas fitosanitarias y en la demanda de los importadores."],
+    "3":["Sistema 3. Control y optimización","Asigna recursos, establece metas y supervisa el desempeño de las operaciones en el presente. Incluye la auditoría (3*).","La gerencia de operaciones fija indicadores comunes de calidad para campo, empaque y logística."],
+    "2":["Sistema 2. Coordinación","Amortigua las oscilaciones y conflictos entre las unidades operativas mediante programas, reglas y comunicación.","Reunión semanal y tablero compartido de rechazos entre las tres áreas."],
+    "1":["Sistema 1. Operaciones","Unidades que realizan las actividades primarias y producen el valor que la organización entrega.","Cosecha, empaque y logística; cada una es, a su vez, un sistema viable (recursividad)."]
+  };
+  var vs = document.querySelectorAll("#vsm .s");
+  for (var q=0;q<vs.length;q++){
+    onKeyAct(vs[q], function(){
+      for (var k=0;k<vs.length;k++){ vs[k].classList.remove("on"); }
+      this.classList.add("on");
+      var d = vsm[this.getAttribute("data-v")];
+      $("vsmInfo").innerHTML = "<h4>" + d[0] + "</h4><p>" + d[1] + "</p><p style='margin:0'><strong>En AgroEmpaque:</strong> " + d[2] + "</p>";
+    });
+  }
+
+  /* ---------- Constructor del sistema ---------- */
+  var ins = [], outs = [];
+  try { ins = JSON.parse(sGet("tgs2_ins") || "[]"); outs = JSON.parse(sGet("tgs2_outs") || "[]"); } catch(err){ ins = []; outs = []; }
+  function persist(){ sSet("tgs2_ins", JSON.stringify(ins)); sSet("tgs2_outs", JSON.stringify(outs)); }
+  function addItem(list, txtId, typeId){
+    var t = $(txtId).value.trim();
+    if (!t){ $(txtId).focus(); return; }
+    list.push({t:t, k:$(typeId).value});
+    $(txtId).value = ""; $(txtId).focus();
+    persist(); renderItems();
+  }
+  $("inAdd").addEventListener("click", function(){ addItem(ins, "inTxt", "inType"); });
+  $("outAdd").addEventListener("click", function(){ addItem(outs, "outTxt", "outType"); });
+  $("inTxt").addEventListener("keydown", function(ev){ if (ev.key === "Enter"){ ev.preventDefault(); addItem(ins, "inTxt", "inType"); } });
+  $("outTxt").addEventListener("keydown", function(ev){ if (ev.key === "Enter"){ ev.preventDefault(); addItem(outs, "outTxt", "outType"); } });
+  function renderItems(){
+    var h = "";
+    for (var i=0;i<ins.length;i++){ h += "<span class='chip'>" + esc(ins[i].t) + " <small>(" + esc(ins[i].k) + ")</small><button aria-label='Quitar' data-l='in' data-i='" + i + "'>x</button></span>"; }
+    $("inChips").innerHTML = h;
+    h = "";
+    for (var j=0;j<outs.length;j++){ h += "<span class='chip" + (outs[j].k === "No deseada" ? " nd" : "") + "'>" + esc(outs[j].t) + " <small>(" + esc(outs[j].k) + ")</small><button aria-label='Quitar' data-l='out' data-i='" + j + "'>x</button></span>"; }
+    $("outChips").innerHTML = h;
+    var rm = document.querySelectorAll(".chip button");
+    for (var r=0;r<rm.length;r++){
+      rm[r].onclick = function(){
+        var l = this.getAttribute("data-l") === "in" ? ins : outs;
+        l.splice(parseInt(this.getAttribute("data-i"),10), 1);
+        persist(); renderItems();
+      };
+    }
+    var nd = 0; for (var n=0;n<outs.length;n++){ if (outs[n].k === "No deseada") nd++; }
+    $("counts").textContent = "Entradas: " + ins.length + " (mínimo 6) · Salidas: " + outs.length + " (mínimo 5, al menos una no deseada; llevas " + nd + ")";
+    preview();
+  }
+  function preview(){
+    function g(id, d){ var v = $(id).value.trim(); return v ? v : d; }
+    $("pvName").textContent = g("sNombre", "Proceso");
+    $("pvEnt").textContent = g("sEnt", "(pendiente)");
+    $("pvRet").textContent = g("sRet", "(pendiente)");
+    var h = "";
+    for (var i=0;i<ins.length;i++){ h += "<li>" + esc(ins[i].t) + "<span class='t'>" + esc(ins[i].k) + "</span></li>"; }
+    $("pvIn").innerHTML = h || "<li style='color:var(--muted)'>Agrega entradas</li>";
+    var p = g("sProc", "").split(";"), hp = "";
+    for (var k=0;k<p.length;k++){ if (p[k].trim()) hp += "<li>" + esc(p[k].trim()) + "</li>"; }
+    $("pvProc").innerHTML = hp || "<li style='color:var(--muted)'>Describe los subsistemas separados por punto y coma</li>";
+    h = "";
+    for (var j=0;j<outs.length;j++){ h += "<li" + (outs[j].k === "No deseada" ? " class='nd'" : "") + ">" + esc(outs[j].t) + "<span class='t'>" + esc(outs[j].k) + "</span></li>"; }
+    $("pvOut").innerHTML = h || "<li style='color:var(--muted)'>Agrega salidas</li>";
+  }
+  renderItems();
+  function fichaSistema(){
+    function g(id){ var v = $(id).value.trim(); return v ? v : "(pendiente)"; }
+    var t = "FICHA DEL SISTEMA - TEORÍA GENERAL DE SISTEMAS - UNE\n=====================================================\n";
+    t += "Sistema: " + g("sNombre") + "\nObjetivo: " + g("sObj") + "\nFrontera: " + g("sFront") + "\n\nENTRADAS\n";
+    if (!ins.length) t += "(pendiente)\n";
+    for (var i=0;i<ins.length;i++){ t += "- " + ins[i].t + " [" + ins[i].k + "]\n"; }
+    t += "\nPROCESO Y SUBSISTEMAS\n";
+    var p = $("sProc").value.split(";"), np = 0;
+    for (var k=0;k<p.length;k++){ if (p[k].trim()){ np++; t += np + ". " + p[k].trim() + "\n"; } }
+    if (!np) t += "(pendiente)\n";
+    t += "\nSALIDAS\n";
+    if (!outs.length) t += "(pendiente)\n";
+    for (var j=0;j<outs.length;j++){ t += "- " + outs[j].t + " [" + outs[j].k + "]\n"; }
+    t += "\nRETROALIMENTACIÓN\n" + g("sRet") + "\n\nENTORNO\n" + g("sEnt") + "\n\nDEFINICIÓN RAÍZ (CATWOE)\n" + $("cwOut").textContent + "\n\nDIAGNÓSTICO\n" + g("sDiag") + "\n\nDATO OBSERVADO\n" + g("sDato") + "\n";
+    return t;
+  }
+  $("sDown").addEventListener("click", function(){ download("ficha_sistema_real_TGS.txt", fichaSistema()); });
+  $("sCopy").addEventListener("click", function(){ copyText(fichaSistema(), this, "Copiar ficha"); });
+  $("sClear").addEventListener("click", function(){
+    if (!confirm("¿Deseas vaciar la lista de entradas y salidas?")) return;
+    ins = []; outs = []; persist(); renderItems();
+  });
+
+  /* ---------- Quiz ---------- */
+  var quiz = [
+    {q:"Según la definición adoptada por el IISE, ¿qué diseña, mejora e instala la ingeniería industrial?",
+     o:["Máquinas y herramientas de alta precisión","Sistemas integrados de personas, materiales, información, equipo y energía","Exclusivamente procesos de manufactura","Programas de cómputo para la administración"], a:1,
+     f:"La definición destaca los sistemas integrados, lo que confirma el carácter sistémico de la ingeniería industrial. Repasa el Tema A."},
+    {q:"Una empresa quiere determinar la cantidad óptima de producción mensual con datos de demanda, capacidad y costos bien conocidos. ¿Qué tipo de problema es y qué metodología conviene?",
+     o:["Blando; metodología de Checkland","Duro; metodología de Hall","Blando; modelo de sistema viable","Duro; imagen enriquecida"], a:1,
+     f:"Es un problema estructurado con objetivo claro y variables medibles: un problema duro, adecuado para la metodología de Hall. Repasa el Tema B."},
+    {q:"En el nemotécnico CATWOE de Checkland, ¿qué representa la letra W?",
+     o:["El trabajo realizado por los actores","La visión del mundo que da sentido a la transformación","Los desperdicios del sistema","El flujo de información"], a:1,
+     f:"W corresponde a Weltanschauung, la visión del mundo o supuesto que hace significativa la transformación. Repasa el Tema B."},
+    {q:"Una fábrica instala robots, pero la productividad baja porque se desintegraron los equipos de trabajo y el personal perdió autonomía. ¿Qué enfoque explica mejor esta situación?",
+     o:["Administración científica","Enfoque sociotécnico","Metodología de Hall","Teoría de la burocracia"], a:1,
+     f:"El enfoque sociotécnico del Instituto Tavistock sostiene que los subsistemas técnico y social deben optimizarse conjuntamente. Repasa el Tema C."},
+    {q:"En el Modelo de Sistema Viable de Stafford Beer, ¿qué función cumple el Sistema 4?",
+     o:["Realizar las operaciones primarias","Coordinar a las unidades operativas","Observar el entorno y el futuro para proponer adaptaciones","Auditar el inventario"], a:2,
+     f:"El Sistema 4 es la función de inteligencia: vigila el entorno y el futuro. Repasa el Tema C."}
+  ];
+  var ans = [], graded = false, letters = ["A","B","C","D"];
+  function buildQuiz(){
+    ans = []; graded = false;
+    var h = "";
+    for (var i=0;i<quiz.length;i++){
+      ans.push(-1);
+      h += "<div class='qz'><div class='qn'>Pregunta " + (i+1) + " de " + quiz.length + "</div><div class='qt'>" + quiz[i].q + "</div>";
+      for (var k=0;k<quiz[i].o.length;k++){ h += "<button type='button' class='opt' data-q='" + i + "' data-o='" + k + "'>" + letters[k] + ") " + quiz[i].o[k] + "</button>"; }
+      h += "<div class='fbk' id='qf" + i + "'></div></div>";
+    }
+    $("quiz").innerHTML = h;
+    reattach();
+    $("qScore").style.display = "none"; $("qScore").innerHTML = "";
+  }
+  function reattach(){
+    var opts = document.querySelectorAll("#quiz .opt");
+    for (var n=0;n<opts.length;n++){ opts[n].onclick = pick; }
+  }
+  function pick(){
+    if (graded) return;
+    var q = parseInt(this.getAttribute("data-q"),10);
+    ans[q] = parseInt(this.getAttribute("data-o"),10);
+    var sib = document.querySelectorAll("#quiz .opt[data-q='" + q + "']");
+    for (var n=0;n<sib.length;n++){ sib[n].classList.remove("sel"); }
+    this.classList.add("sel");
+  }
+  $("qGrade").addEventListener("click", function(){
+    var missing = 0;
+    for (var i=0;i<ans.length;i++){ if (ans[i] < 0) missing++; }
+    if (missing > 0 && !confirm("Tienes " + missing + " pregunta(s) sin responder. ¿Deseas calificar de todos modos?")) return;
+    graded = true;
+    var score = 0;
+    for (var i2=0;i2<quiz.length;i2++){
+      var opts = document.querySelectorAll("#quiz .opt[data-q='" + i2 + "']");
+      for (var n=0;n<opts.length;n++){
+        opts[n].disabled = true;
+        var oi = parseInt(opts[n].getAttribute("data-o"),10);
+        if (oi === quiz[i2].a) opts[n].classList.add("right");
+        else if (oi === ans[i2]) opts[n].classList.add("wrong");
+      }
+      var fb = $("qf"+i2);
+      if (ans[i2] === quiz[i2].a){ score++; fb.className = "fbk good"; fb.textContent = "Correcto. " + quiz[i2].f; }
+      else { fb.className = "fbk bad"; fb.textContent = (ans[i2] < 0 ? "Sin responder. " : "Incorrecto. ") + quiz[i2].f; }
+    }
+    var name = $("qName").value.trim() || "Sin nombre";
+    var grp = $("qGroup").value.trim() || "Sin grupo";
+    var pct = Math.round(score / quiz.length * 100);
+    var msg = score === 5 ? "Dominio completo de los temas. Excelente trabajo." :
+              score >= 4 ? "Buen dominio. Revisa la retroalimentación de la pregunta fallida." :
+              score >= 3 ? "Dominio parcial. Repasa los temas indicados y repite el quiz." :
+                           "Es necesario repasar los temas. Estudia de nuevo las secciones indicadas y repite el quiz.";
+    var d = new Date();
+    var fecha = d.toLocaleDateString("es-MX", {year:"numeric", month:"long", day:"numeric"}) + ", " + d.toLocaleTimeString("es-MX", {hour:"2-digit", minute:"2-digit"});
+    var s = $("qScore");
+    s.innerHTML = "<div class='big'>" + score + " / " + quiz.length + "</div><p><strong style='color:#fff'>" + pct + " %</strong> &middot; " + msg + "</p><p class='who'>" + esc(name) + " &middot; Grupo " + esc(grp) + " &middot; " + fecha + "</p><p class='who'>Toma una captura de pantalla de este resultado y súbela a Classroom.</p>";
+    s.style.display = "block";
+    s.scrollIntoView({behavior:"smooth", block:"center"});
+  });
+  $("qReset").addEventListener("click", buildQuiz);
+  buildQuiz();
+
+  /* ---------- Reflexión ---------- */
+  $("rDown").addEventListener("click", function(){
+    function g(id){ var v = $(id).value.trim(); return v ? v : "(sin respuesta)"; }
+    var t = "MI PLAN DE APLICACIÓN - TEORÍA GENERAL DE SISTEMAS\nLa ingeniería, la investigación y las organizaciones desde el enfoque de sistemas\nUniversidad de Especialidades UNE - Ingeniería Industrial\n==============================================================\n\n" +
+      "Hipótesis inicial (AgroEmpaque del Valle):\n" + g("hip") + "\n\n" +
+      "1. Problemas duros y blandos en mi vida académica:\n" + g("r1") + "\n\n" +
+      "2. Mejora prioritaria en mi sistema de trabajo:\n" + g("r2") + "\n\n" +
+      "3. Cómo cuidaré el subsistema social:\n" + g("r3") + "\n\n" +
+      "4. Mecanismo de coordinación para mi equipo:\n" + g("r4") + "\n\n" +
+      "5. Compromiso para los próximos siete días:\n" + g("r5") + "\n";
+    download("plan_aplicacion_TGS.txt", t);
+  });
+  $("rClear").addEventListener("click", function(){
+    if (!confirm("¿Deseas borrar tus respuestas de reflexión?")) return;
+    var ids = ["r1","r2","r3","r4","r5"];
+    for (var i=0;i<ids.length;i++){ $(ids[i]).value = ""; sDel("tgs2_" + ids[i]); }
+  });
+
+  /* ---------- Navegación ---------- */
+  var links = document.querySelectorAll("nav.side a"), secs = [];
+  for (var l=0;l<links.length;l++){ secs.push(document.querySelector(links[l].getAttribute("href"))); }
+  function onScroll(){
+    var y = window.scrollY + 120, cur = 0;
+    for (var i=0;i<secs.length;i++){ if (secs[i] && secs[i].offsetTop <= y) cur = i; }
+    for (var j=0;j<links.length;j++){ links[j].classList.toggle("active", j === cur); }
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    $("prog").style.width = (h > 0 ? Math.min(100, window.scrollY / h * 100) : 0) + "%";
+  }
+  window.addEventListener("scroll", onScroll, {passive:true});
+  onScroll();
+})();
+</script>
+</body>
+</html>
